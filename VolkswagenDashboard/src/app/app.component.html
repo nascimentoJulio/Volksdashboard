@@ -1,0 +1,14 @@
+<mat-sidenav-container class="nav-container">
+  <mat-sidenav mode="side" class="nav-menu" [(opened)]="opened">
+    <ul>
+      <li><a href="/">INICIO</a></li>
+      <li><a href="/reports">RELATÓRIO</a></li>
+      <li><a href="/admin">ADMINISTRATIVO</a></li>
+    </ul>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <p class="container-menu-toggle"><mat-checkbox [(ngModel)]="opened"></mat-checkbox></p>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

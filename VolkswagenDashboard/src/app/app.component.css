@@ -1,0 +1,12 @@
+.container-menu-toggle{
+    text-align: end;
+}
+
+.nav-container{
+    height: 100%;
+}
+.nav-menu{
+    background: #1D1C69;
+    width: 260px;
+    height: 100%;
+}

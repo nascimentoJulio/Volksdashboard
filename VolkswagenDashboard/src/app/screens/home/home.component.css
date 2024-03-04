@@ -1,0 +1,11 @@
+.container-screen{
+    padding: 0 128px 128px 128px;
+}
+
+.th-table{
+    background-color: #1D1C69 !important;
+    color: white;
+}
+.custom-line{
+    background-color: rgba(29, 28, 105, 0.15) ;
+}
