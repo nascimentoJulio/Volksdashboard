@@ -26,10 +26,8 @@ export class HomeComponent implements OnInit {
     })     
   }
 
-  changeClass(element: Car){
-    this.className = element.id % 2 !== 0 ? 'custom-line' : ''
-    console.log(this.cars);
-    
+  changeClass(index: number){
+    this.className = index % 2 === 0 ? 'custom-line' : ''
   }
   displayedColumns: string[] = ['ID', 'NOME', 'ANO'];
 }
